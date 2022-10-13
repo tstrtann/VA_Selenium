@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="website" value="https://www.facebook.com"/>
+  <test thread-count="1" parallel="tests" name="Facebook Login Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testng.Providing">
+        <methods>
+          <include name="afterClass"/>
+          <include name="iBrowsers"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testng.Providing -->
+    </classes>
+  </test> <!-- Facebook Login Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->
