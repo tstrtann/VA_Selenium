@@ -49,7 +49,7 @@ public class Utilities {
 	@AfterClass
 	public void afterClass() throws IOException {
 //		Screenshots();
-		driver.close();
+//		driver.close();
 //		driver.quit();
 	}
 

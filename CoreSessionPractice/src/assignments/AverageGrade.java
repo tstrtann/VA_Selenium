@@ -6,8 +6,8 @@ public class AverageGrade {
 		// TODO Auto-generated method stub
 		int computer, science, math;
 		computer = 90;
-		science = 60;
-		math = 40;
+		science = 80;
+		math = 80;
 		
 		int totalMarks;
 		totalMarks = computer + science + math;

@@ -50,6 +50,7 @@ public class iBrowser {
 		}
 	}
 	
+	
 	// Create method for screenshot
 	public static void Screenshots() throws IOException{
 		Date dateSS = new Date();

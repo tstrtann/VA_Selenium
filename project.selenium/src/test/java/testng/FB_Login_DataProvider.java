@@ -34,5 +34,6 @@ public class FB_Login_DataProvider extends Utilities{
       new Object[] { "tested2", "password2" }, // 2nd collumn = 2
       new Object[] { "tested3", "password3" }, // 3rd collumn = 3
     };
+    
   }
 }

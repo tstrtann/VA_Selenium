@@ -32,11 +32,11 @@ public class Flights {
 		Thread.sleep(2000);
 
 		// Select Departing date using Xpath
-		driver.findElement(By.xpath("//*[@aria-label='Oct 6, 2022']")).click();
+		driver.findElement(By.xpath("//*[@aria-label='Oct 20, 2022']")).click();
 		Thread.sleep(2000);
 
 		// Select Return date using Xpath
-		driver.findElement(By.xpath("//*[@aria-label='Nov 26, 2022']")).click();
+		driver.findElement(By.xpath("//*[@aria-label='Nov 10, 2022']")).click();
 		Thread.sleep(2000);
 
 		WebElement dateButton = driver.findElement(By.xpath("//button[@data-stid='apply-date-picker']"));
